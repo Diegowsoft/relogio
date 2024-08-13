@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qahiri&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(187, 186, 186);
+}
+
+.relogio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display {
+    background-color: #282D40;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    color: #b4e184;
+    font-size: 7rem;
+    font-family: "Qahiri", sans-serif;
+    border: 10px solid #FFD523;
+}
+
+footer {
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #333;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+footer strong {
+    color: rgb(33, 33, 244);
+    font-style: italic;
+    font-family: "Barlow Condensed", sans-serif;
+
+}
+
